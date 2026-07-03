@@ -75,6 +75,17 @@ To build the Addin package, compile the solution and then open a terminal window
 
 This will create the .mpack file which you can install manually by following the instructions above.
 
+## Validation
+
+Run the repository validation wrapper from the root:
+
+    bash scripts/validate.sh
+
+This performs a Linux-friendly repository shape and XML metadata smoke. Full
+add-in build and packaging still require a legacy Xamarin Studio or compatible
+MonoDevelop add-in toolchain. See `docs/validation.md` for the current build
+boundary.
+
 ## Tips and Tricks
 
 Make sure your SVG file has an valid XML header on it:
@@ -92,6 +103,5 @@ which will force regeneration of all the PNG files.
 Support colorization of SVG files to allow, for example, a red, green and blue version of an icon.
 
 Support height and width for non-square icons.
-
 
 
