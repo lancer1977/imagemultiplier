@@ -1,0 +1,13 @@
+schema: 1
+project:
+  name: imagemultiplier
+  kind: internal-tool
+  owner: lancer1977
+validation:
+  validate: bash scripts/validate.sh
+  full_build: Xamarin Studio or compatible MonoDevelop add-in tooling
+tracking:
+  primary: repo-state
+  repo_state: repo-state.md
+docs:
+  index: docs/index.md
