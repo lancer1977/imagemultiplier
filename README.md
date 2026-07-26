@@ -1,5 +1,8 @@
 # imagemultiplier
 
+***This repo is deprecated, I am no longer taking or merging pull requests, it has not been updated in years, please fork it and carry on.***
+
+
 Image Multiplier is an AddIn for Xamarin Studio.
 
 It adds a new file type '.multiplier' in which you can specify a set of output image files that
