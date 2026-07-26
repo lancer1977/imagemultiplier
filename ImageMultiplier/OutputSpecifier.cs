@@ -20,6 +20,12 @@ namespace ImageMultiplier
         public int width { get; set; }
 
         /// <summary>
+        /// Gets or sets the optional height. A zero value preserves the legacy
+        /// square-output behavior by falling back to width.
+        /// </summary>
+        public int height { get; set; }
+
+        /// <summary>
         /// Not used yet, but will allow recoloring of SVG icons
         /// </summary>
         /// <value>The color.</value>
