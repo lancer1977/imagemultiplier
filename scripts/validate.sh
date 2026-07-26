@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-set -euo pipefail
-
-find . -maxdepth 3 -type f \( -name '*.xml' -o -name '*.csproj' -o -name '*.config' -o -name '*.resx' \) -print0 \
-  | xargs -0 xmllint --noout
-echo "ImageMultiplier project XML files parsed"

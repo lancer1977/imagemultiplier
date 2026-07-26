@@ -1,8 +1,0 @@
-# Build output
-bin/
-obj/
-
-# IDE/user-local files
-.vs/
-*.user
-*.suo
