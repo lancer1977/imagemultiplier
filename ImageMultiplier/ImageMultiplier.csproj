@@ -46,15 +46,15 @@
     <Reference Include="pango-sharp" />
     <Reference Include="Mono.Cairo" />
     <Reference Include="Svg">
-      <HintPath>..\packages\Svg.1.7.0\lib\Svg.dll</HintPath>
+      <HintPath>..\packages\Svg.3.0.84\lib\net35\Svg.dll</HintPath>
     </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Drawing" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.4\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Addins">
-      <HintPath>..\packages\Mono.Addins.1.2\lib\net40\Mono.Addins.dll</HintPath>
+      <HintPath>..\packages\Mono.Addins.1.2.0\lib\net40\Mono.Addins.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>..\packages\Mono.Cecil.0.9.5.4\lib\net40\Mono.Cecil.dll</HintPath>
@@ -69,16 +69,16 @@
       <HintPath>..\packages\Mono.Cecil.0.9.5.4\lib\net40\Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>..\packages\ICSharpCode.NRefactory.5.5.0\lib\Net40\ICSharpCode.NRefactory.dll</HintPath>
+      <HintPath>..\packages\ICSharpCode.NRefactory.5.5.1\lib\Net40\ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory.Cecil">
-      <HintPath>..\packages\ICSharpCode.NRefactory.5.5.0\lib\Net40\ICSharpCode.NRefactory.Cecil.dll</HintPath>
+      <HintPath>..\packages\ICSharpCode.NRefactory.5.5.1\lib\Net40\ICSharpCode.NRefactory.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory.CSharp">
-      <HintPath>..\packages\ICSharpCode.NRefactory.5.5.0\lib\Net40\ICSharpCode.NRefactory.CSharp.dll</HintPath>
+      <HintPath>..\packages\ICSharpCode.NRefactory.5.5.1\lib\Net40\ICSharpCode.NRefactory.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory.Xml">
-      <HintPath>..\packages\ICSharpCode.NRefactory.5.5.0\lib\Net40\ICSharpCode.NRefactory.Xml.dll</HintPath>
+      <HintPath>..\packages\ICSharpCode.NRefactory.5.5.1\lib\Net40\ICSharpCode.NRefactory.Xml.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
